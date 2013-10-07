@@ -1,0 +1,21 @@
+#PhpStorm
+.idea
+
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/bundles/*
+web/uploads/defaults/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+
+#Tmp
+*.php~
+*.orig
