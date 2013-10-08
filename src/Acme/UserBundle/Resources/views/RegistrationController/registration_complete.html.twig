@@ -1,0 +1,26 @@
+{% extends "::layout_auth.html.twig" %}
+
+
+{% block stylesheets %}
+
+    {{parent()}}
+
+{% endblock %}
+
+
+{% block page_title %}
+
+    <div class="page-title">
+        <h1 class="icon-register">Registration Complete</h1>
+    </div>
+
+{% endblock %}
+
+
+{% block fos_user_content %}
+    
+    <div class="register-complete">Registration Success! Go to your page to start working</div>
+    
+{% endblock %}
+
+
