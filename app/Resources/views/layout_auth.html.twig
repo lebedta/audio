@@ -2,36 +2,40 @@
 
 
 {% block body %}
-    
+
     {{ parent() }}
-    
-    
+
+
+
+
+
     {% block main %}
-        
+
     {% endblock %}
-    
-    
+
+
     <div class="wrapper {% block page_class %}{% endblock %}">
-        
+
         {% block page_title %}
-            
+
         {% endblock %}
-        
-        
+
+
         {% block fos_user_content %}
-        
+
         {% endblock %}
-        
-        
+
+
         {% block import_users %}
-        
+
         {% endblock %}
-        
+
     </div>
-    
+
 {% endblock %}
 
 {% block javascripts %}
     {{ parent() }}
-
+    {#<script src="{{ asset('/js/validate.js') }}" type="text/javascript"></script>#}
+    {#<script src="{{ asset('/js/auth.js') }}" type="text/javascript"></script>#}
 {% endblock %}

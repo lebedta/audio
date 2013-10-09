@@ -23,7 +23,9 @@
         "doctrine/migrations": "dev-master",
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "*",
-        "stof/doctrine-extensions-bundle": "dev-master"
+        "stof/doctrine-extensions-bundle": "dev-master",
+        "braincrafted/bootstrap-bundle": "dev-master",
+        "twitter/bootstrap": "2.3.*"
 
     },
     "scripts": {
